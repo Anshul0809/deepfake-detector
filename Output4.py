@@ -278,15 +278,27 @@ with col2:
             """, unsafe_allow_html=True)
 
         st.divider()
-        st.markdown(
-            '''
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+st.markdown(
+    """
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <h3>Project Information</h3>
+    <p>
+    This Streamlit app detects whether an image or video is a deepfake or real
+    using deep learning models.
+    </p>
 
-        # Project Information
+    <p>
+    <b>Created by:</b> Anshul Gajbhiye
+    </p>
 
-        This Streamlit app detects deepfakes in images, videos, and audio files.
-        This app is created by [Khushi Jain](https://github.com/Khushi-J15/).
-
-        The source code is available on [GitHub](https://github.com/Khushi-J15/deepFakee) <i class="fa fa-github"></i>
-        ''', unsafe_allow_html=True
-        )
+    <p>
+    <a href="https://github.com/Anshul0809" target="_blank">
+    GitHub Profile
+    </a> |
+    <a href="https://github.com/Anshul0809/deepfake-detector" target="_blank">
+    Source Code
+    </a>
+    </p>
+    """,
+    unsafe_allow_html=True
+)
